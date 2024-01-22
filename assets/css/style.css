@@ -204,3 +204,40 @@ a {
   background-color: #f6f9fe;
   height: fit-content;
 }
+
+/* Pricing  Section*/
+.crd-body {
+  position: relative;
+}
+.crd-body .dollar {
+  position: absolute;
+  font-size: 20px;
+  top: 20px;
+  left: 85px;
+}
+
+.crd-body .dollar.f {
+  left: 95px;
+}
+
+.crd-body .number {
+  font-size: 36px;
+}
+
+.crd-body .month {
+  font-size: 16px;
+}
+
+.crd {
+  position: relative;
+  overflow: hidden;
+}
+
+.crd-header .mark {
+  position: absolute;
+  top: 20px;
+  right: -50px;
+  transform: rotate(45deg);
+  padding-left: 50px;
+  padding-right: 50px;
+}
