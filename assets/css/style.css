@@ -19,8 +19,7 @@ a {
 .section-title {
   font-size: 13px;
   font-weight: 700;
-  width: 87px;
-  height: 31px;
+  padding: 6px 14px;
   background: #e7f1fd;
   color: #106eea;
   border-radius: 16px;
@@ -190,4 +189,14 @@ a {
   background: rgba(8, 8, 8, 0.6);
   z-index: 999999999;
   height: 100%;
+}
+
+/* Portfolio Section */
+
+.nav .nav-item .nav-link {
+  font-weight: 700;
+}
+
+.nav .nav-item .nav-link:hover {
+  color: #106eea !important;
 }
