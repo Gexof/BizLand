@@ -241,3 +241,20 @@ a {
   padding-left: 50px;
   padding-right: 50px;
 }
+
+/* FAQ Section */
+.fq-section {
+  background-color: #f6f9fe;
+}
+
+.a-button {
+  font-size: 18px;
+}
+.a-button:hover {
+  color: #106eea;
+}
+
+.a-button:focus {
+  outline: none;
+  /* border: none; */
+}
