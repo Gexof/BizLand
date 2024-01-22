@@ -86,8 +86,6 @@ a {
 }
 
 .card {
-  width: 306px;
-  height: 246px;
   border: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.15);
 }
@@ -199,4 +197,10 @@ a {
 
 .nav .nav-item .nav-link:hover {
   color: #106eea !important;
+}
+
+/* Team Section */
+.team-section {
+  background-color: #f6f9fe;
+  height: fit-content;
 }
