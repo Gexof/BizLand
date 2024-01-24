@@ -34,6 +34,17 @@ a {
   font-size: 14px;
 }
 
+.section-bg-light-blue {
+  background-color: #f6f9fe;
+}
+
+.dot-circle {
+  width: 52px;
+  height: 52px;
+  border: 2px dotted #b3d1fa;
+  border-radius: 100%;
+}
+
 /* Header */
 .top-bar {
   height: 40px;
