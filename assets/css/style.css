@@ -131,12 +131,13 @@ ul {
 .card-circle {
   width: 64px;
   height: 64px;
+  padding: 25px;
   box-shadow: 0 2px 15px rgba(0, 0, 255, 0.2);
 }
 
 .prog-container {
   margin-top: 60px;
-  margin-bottom: 60px;
+  margin-bottom: 140px;
 }
 
 .prog-content {
