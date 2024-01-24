@@ -30,8 +30,16 @@ a {
   text-transform: uppercase;
 }
 
+.fs-12 {
+  font-size: 12px;
+}
+
 .fs-14 {
   font-size: 14px;
+}
+
+.fs-16 {
+  font-size: 16px;
 }
 
 .section-bg-light-blue {
@@ -43,6 +51,19 @@ a {
   height: 52px;
   border: 2px dotted #b3d1fa;
   border-radius: 100%;
+}
+
+.footer-social-box {
+  padding: 12px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer-link:hover {
+  color: #106eea !important;
 }
 
 /* Header */
@@ -125,6 +146,18 @@ a {
 .prog-bar {
   border-radius: 0;
   height: 10px;
+}
+
+.counter-box {
+  position: relative;
+}
+
+.counter-circle {
+  position: absolute;
+  height: 56px;
+  width: 56px;
+  border: 5px solid white;
+  top: -30px;
 }
 
 .clients-container {
