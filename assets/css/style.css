@@ -88,6 +88,9 @@ ul {
   padding-left: 28px;
 }
 
+.active-nav-item {
+  color: #106eea !important;
+}
 /* Hero Section */
 .hero-section {
   background-image: url("../imgs/hero-bg.jpg");
