@@ -115,11 +115,22 @@ ul {
 
 .card .card-body i {
   font-size: 40px;
+  transition: 0.3s all ease-in;
 }
 
 .card {
   border: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: 0.3s all ease-out;
+}
+
+.card-section-hover:hover {
+  background-color: #106eea;
+  color: white;
+}
+
+.card-section-hover:hover i {
+  color: white !important; /* Use !important to ensure the style takes precedence */
 }
 
 /* About Section */
@@ -194,6 +205,10 @@ ul {
 }
 
 /* Image Slider Section */
+.carousel-indicators {
+  position: static;
+}
+
 .carousel-indicators button {
   width: 12px !important;
   height: 12px !important;
@@ -206,9 +221,9 @@ ul {
 
 .img-slider-section {
   background-image: url("../imgs/testimonials-bg.jpg");
-  background-size: contain;
-  /* padding-top: 250px;
-  padding-bottom: 250px; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .carousel-item {
@@ -224,6 +239,10 @@ ul {
 
 .carousel-item .cr-img img {
   border-radius: 50px;
+}
+
+.carousel-caption {
+  position: static;
 }
 
 .slider-overlay {
@@ -251,18 +270,18 @@ ul {
 }
 
 /* Pricing  Section*/
-.crd-body {
+.crd-body h3 {
   position: relative;
+  width: fit-content;
 }
 .crd-body .dollar {
   position: absolute;
   font-size: 20px;
-  top: 20px;
-  left: 85px;
+  left: -20px;
 }
 
 .crd-body .dollar.f {
-  left: 95px;
+  /* left: 45px; */
 }
 
 .crd-body .number {
